@@ -15,7 +15,7 @@ var settings = {
 var server = new mosca.Server(settings);
 
 server.on('ready', function(){
-    console.log("ready");
+    console.log("Broker is ready on port: ", 3000);
 });
 
 
